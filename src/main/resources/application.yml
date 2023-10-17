@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: productDb
+      host: localhost
+      port: 27017
+      username: admin
+      password: admin
