@@ -1,4 +1,4 @@
-package com.sample.webfluxreactivemongodb.core.port
+package com.sample.webfluxreactivemongodb.core.gateway
 
 import com.sample.webfluxreactivemongodb.core.model.ProductInputDsModel
 import com.sample.webfluxreactivemongodb.core.model.ProductOutputDsModel

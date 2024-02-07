@@ -1,4 +1,4 @@
-package com.sample.webfluxreactivemongodb.adapter.mapper
+package com.sample.webfluxreactivemongodb.gateway.dataprovider.mapper
 
 import org.springframework.data.mongodb.core.mapping.Document
 

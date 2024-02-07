@@ -1,6 +1,6 @@
-package com.sample.webfluxreactivemongodb.adapter.dataprovider
+package com.sample.webfluxreactivemongodb.gateway.dataprovider
 
-import com.sample.webfluxreactivemongodb.adapter.mapper.ProductDataMapper
+import com.sample.webfluxreactivemongodb.gateway.dataprovider.mapper.ProductDataMapper
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository
 import org.springframework.stereotype.Repository
 
