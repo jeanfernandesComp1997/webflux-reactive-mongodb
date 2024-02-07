@@ -1,8 +1,8 @@
 package com.sample.webfluxreactivemongodb.gateway.dataprovider
 
 import com.sample.webfluxreactivemongodb.gateway.dataprovider.mapper.ProductDataMapper
-import com.sample.webfluxreactivemongodb.core.model.ProductInputDsModel
-import com.sample.webfluxreactivemongodb.core.model.ProductOutputDsModel
+import com.sample.webfluxreactivemongodb.core.domain.model.ProductInputDsModel
+import com.sample.webfluxreactivemongodb.core.domain.model.ProductOutputDsModel
 import com.sample.webfluxreactivemongodb.core.gateway.FindProductDsGateway
 import com.sample.webfluxreactivemongodb.core.gateway.ProductRegisterDsGateway
 import org.springframework.stereotype.Component

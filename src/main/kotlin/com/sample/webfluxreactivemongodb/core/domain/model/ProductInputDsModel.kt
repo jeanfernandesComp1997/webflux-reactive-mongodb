@@ -1,4 +1,4 @@
-package com.sample.webfluxreactivemongodb.core.model
+package com.sample.webfluxreactivemongodb.core.domain.model
 
 data class ProductInputDsModel(
     val id: String,

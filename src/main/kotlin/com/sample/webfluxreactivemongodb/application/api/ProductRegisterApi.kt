@@ -1,7 +1,7 @@
 package com.sample.webfluxreactivemongodb.application.api
 
-import com.sample.webfluxreactivemongodb.core.dto.CreateProductInputDto
-import com.sample.webfluxreactivemongodb.core.dto.ProductOutputDto
+import com.sample.webfluxreactivemongodb.core.domain.dto.CreateProductInputDto
+import com.sample.webfluxreactivemongodb.core.domain.dto.ProductOutputDto
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

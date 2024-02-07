@@ -1,7 +1,7 @@
 package com.sample.webfluxreactivemongodb.application.controller
 
 import com.sample.webfluxreactivemongodb.application.api.ProductFindApi
-import com.sample.webfluxreactivemongodb.core.dto.ProductOutputDto
+import com.sample.webfluxreactivemongodb.core.domain.dto.ProductOutputDto
 import com.sample.webfluxreactivemongodb.core.usecase.FindProductByIdUseCase
 import com.sample.webfluxreactivemongodb.core.usecase.RetrieveAllProductsUseCase
 import org.springframework.web.bind.annotation.RestController

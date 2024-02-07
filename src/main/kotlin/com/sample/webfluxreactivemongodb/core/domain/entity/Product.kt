@@ -1,4 +1,4 @@
-package com.sample.webfluxreactivemongodb.core.entity
+package com.sample.webfluxreactivemongodb.core.domain.entity
 
 import java.util.UUID
 

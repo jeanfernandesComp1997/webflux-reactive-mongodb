@@ -1,10 +1,10 @@
 package com.sample.webfluxreactivemongodb.core.usecase.impl
 
-import com.sample.webfluxreactivemongodb.core.dto.CreateProductInputDto
-import com.sample.webfluxreactivemongodb.core.dto.ProductOutputDto
-import com.sample.webfluxreactivemongodb.core.entity.Product
+import com.sample.webfluxreactivemongodb.core.domain.dto.CreateProductInputDto
+import com.sample.webfluxreactivemongodb.core.domain.dto.ProductOutputDto
+import com.sample.webfluxreactivemongodb.core.domain.entity.Product
 import com.sample.webfluxreactivemongodb.core.gateway.ProductRegisterDsGateway
-import com.sample.webfluxreactivemongodb.core.model.ProductInputDsModel
+import com.sample.webfluxreactivemongodb.core.domain.model.ProductInputDsModel
 import com.sample.webfluxreactivemongodb.core.usecase.ProductRegisterUseCase
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Mono

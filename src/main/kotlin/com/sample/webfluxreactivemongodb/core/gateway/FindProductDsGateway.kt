@@ -1,6 +1,6 @@
 package com.sample.webfluxreactivemongodb.core.gateway
 
-import com.sample.webfluxreactivemongodb.core.model.ProductOutputDsModel
+import com.sample.webfluxreactivemongodb.core.domain.model.ProductOutputDsModel
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
 
