@@ -1,6 +1,6 @@
 package com.sample.webfluxreactivemongodb.application.api
 
-import com.sample.webfluxreactivemongodb.core.domain.dto.CreateProductInputDto
+import com.sample.webfluxreactivemongodb.application.api.request.CreateProductRequest
 import com.sample.webfluxreactivemongodb.core.domain.dto.ProductOutputDto
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.PostMapping
@@ -14,5 +14,5 @@ interface ProductRegisterApi {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    fun register(@RequestBody createProductInput: CreateProductInputDto): Mono<ProductOutputDto>
+    fun register(@RequestBody createProductRequest: CreateProductRequest): Mono<ProductOutputDto>
 }

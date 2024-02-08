@@ -1,6 +1,7 @@
 package com.sample.webfluxreactivemongodb.application.controller
 
 import com.sample.webfluxreactivemongodb.application.api.ProductRegisterApi
+import com.sample.webfluxreactivemongodb.application.api.request.CreateProductRequest
 import com.sample.webfluxreactivemongodb.core.domain.dto.CreateProductInputDto
 import com.sample.webfluxreactivemongodb.core.domain.dto.ProductOutputDto
 import com.sample.webfluxreactivemongodb.core.usecase.ProductRegisterUseCase
@@ -13,8 +14,13 @@ class ProductRegisterController(
     private val registerProductUseCase: ProductRegisterUseCase
 ) : ProductRegisterApi {
 
-    override fun register(@RequestBody createProductInput: CreateProductInputDto): Mono<ProductOutputDto> {
+    override fun register(@RequestBody createProductRequest: CreateProductRequest): Mono<ProductOutputDto> {
         return registerProductUseCase
-            .execute(createProductInput)
+            .execute(
+                CreateProductInputDto(
+                    description = createProductRequest.description,
+                    price = createProductRequest.price
+                )
+            )
     }
 }
